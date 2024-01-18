@@ -28,12 +28,12 @@ export function Header() {
                 </li>
               </ul>
             </div>
-            <div className="flex items-center gap-3 divide-x divide-gray">
+            <div className="flex items-center gap-4 divide-x divide-gray">
               <div>
                 <span className="font-semibold">41 99784-4448</span>
               </div>
 
-              <div className="flex gap-2 px-2">
+              <div className="flex gap-2 p-2">
                 <button className="p-1 bg-white rounded">
                   <Image src={WhatsAppIcon} alt="Whatsapp" height={20} />
                 </button>
@@ -41,7 +41,7 @@ export function Header() {
                   <Image src={Location} alt="Location" height={20} />
                 </button>
               </div>
-              <div className="mx-5 px-2">
+              <div className="px-2">
                 <button className="bg-light-green p-1 rounded ">
                   <span className="font-bold font">Escolha um produto</span>
                 </button>
